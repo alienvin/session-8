@@ -1,45 +1,61 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Alienor",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Aliénor",
+    lastName: "Vinçotte",
+    description: "Je suis étudiante à l'Ecole de journalisme de Sciences Po Paris et en apprentissage à franceinfo",
+    photo: "https://pbs.twimg.com/profile_images/1039234114291998722/jhp-CRbW_400x400.jpg",
+    twitter: "Alienor_V",
+    github: "alienvin",
+    mail: "alienor.vincotte@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
+      dateBegin: "2018",
       dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }, {
-      dateBegin: "Été 2013",
+      name: "franceinfo",
+      title: "Apprentie-journaliste",
+      description: "Participation au travail de la rédaction"
+    },
+    {
+      dateBegin: "Avril-Mai 2018",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
+      name: "Figaro.fr — service culture",
+      title: "Stagiaire assistante de rédaction",
+      description: "Participation au travail de la rédaction, développement et publication de dépêches AFP, rédaction et publication d'articles culturels, reportages"
+    },
+    {
+      dateBegin: "Février-Avril 2018",
+      dateEnd: false,
+      name: "LE PETIT BULLETIN — Lyon",
+      title: "Stagiaire assistante de rédaction",
+      description: "Participation au travail de la rédaction"
+    },
+
+     {
+      dateBegin: "Octobre-Décembre 2017",
+      dateEnd: false,
+      name: "LYON CAPITALE — Lyon",
+      title: "Asistante de rédaction",
       description: false
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
+      dateBegin: "Été 2017",
+      dateEnd: false,
+      name: "France 2 — Washington",
+      title: "Stagiaire et JRI chez les correspondants de France 2 aux États-Unis",
       description: false
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
+      dateBegin: "2016",
+      dateEnd: "2019",
       name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      university: "Sciences Po Paris"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2013",
+      dateEnd: "2016",
+      name: "Licence d'Histoire",
+      university: "Université Paris-IV"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Anglais", "Espagnol","Langue des Signes Française (LSF)"],
+    skills: ["Word", "Excel", "Photoshop", "Adobe Primaire", "HTML", "CSS", "Picasa"]
   },
   computed: {
     fullName() {
