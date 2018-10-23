@@ -1,7 +1,7 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
+    firstName: "Alienor",
     lastName: "Bonnard",
     description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
     photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
